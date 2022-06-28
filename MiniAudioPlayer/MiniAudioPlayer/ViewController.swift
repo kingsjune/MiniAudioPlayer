@@ -6,14 +6,30 @@
 //
 
 import UIKit
+import MarqueeLabel
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var demoLabel: MarqueeLabel!
+    
+    @IBOutlet weak var bottomView: UIView!
+    
+    @IBOutlet weak var playButton: UIButton!
+    @IBOutlet weak var next15Button: UIButton!
+    @IBOutlet weak var closeButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        self.view.backgroundColor = UIColor.darkGray
+        setUI()
     }
-
+    
+    fileprivate func setUI() {
+        demoLabel.type = .continuous
+        demoLabel.speed = .duration(7.0)
+        demoLabel.fadeLength = 10.0
+        demoLabel.trailingBuffer = 30.0
+    }
 
 }
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B1EC5F6FC5B4BA26372C8BF /* Pods_MiniAudioPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0691C2903003673C180FF67D /* Pods_MiniAudioPlayer.framework */; };
 		C5ABBA2D2866F60F00805113 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ABBA2C2866F60F00805113 /* AppDelegate.swift */; };
 		C5ABBA2F2866F60F00805113 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ABBA2E2866F60F00805113 /* SceneDelegate.swift */; };
 		C5ABBA312866F60F00805113 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ABBA302866F60F00805113 /* ViewController.swift */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0691C2903003673C180FF67D /* Pods_MiniAudioPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiniAudioPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		688D5F16959DAC52CD13A798 /* Pods-MiniAudioPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniAudioPlayer.debug.xcconfig"; path = "Target Support Files/Pods-MiniAudioPlayer/Pods-MiniAudioPlayer.debug.xcconfig"; sourceTree = "<group>"; };
 		C5ABBA292866F60F00805113 /* MiniAudioPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniAudioPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5ABBA2C2866F60F00805113 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5ABBA2E2866F60F00805113 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		C5ABBA352866F61100805113 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5ABBA382866F61100805113 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5ABBA3A2866F61100805113 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D415389973BB73B799D4BCAA /* Pods-MiniAudioPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniAudioPlayer.release.xcconfig"; path = "Target Support Files/Pods-MiniAudioPlayer/Pods-MiniAudioPlayer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B1EC5F6FC5B4BA26372C8BF /* Pods_MiniAudioPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BCA72392DC7002E9267C5829 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0691C2903003673C180FF67D /* Pods_MiniAudioPlayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C5ABBA202866F60F00805113 = {
 			isa = PBXGroup;
 			children = (
 				C5ABBA2B2866F60F00805113 /* MiniAudioPlayer */,
 				C5ABBA2A2866F60F00805113 /* Products */,
+				D6C4E56FF4A5F7E8289D5A86 /* Pods */,
+				BCA72392DC7002E9267C5829 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +82,16 @@
 			path = MiniAudioPlayer;
 			sourceTree = "<group>";
 		};
+		D6C4E56FF4A5F7E8289D5A86 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				688D5F16959DAC52CD13A798 /* Pods-MiniAudioPlayer.debug.xcconfig */,
+				D415389973BB73B799D4BCAA /* Pods-MiniAudioPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C5ABBA3D2866F61100805113 /* Build configuration list for PBXNativeTarget "MiniAudioPlayer" */;
 			buildPhases = (
+				CD46496FAB1F42DCB66E552E /* [CP] Check Pods Manifest.lock */,
 				C5ABBA252866F60F00805113 /* Sources */,
 				C5ABBA262866F60F00805113 /* Frameworks */,
 				C5ABBA272866F60F00805113 /* Resources */,
+				37287A4027A0D412CEC27DF4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +159,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37287A4027A0D412CEC27DF4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MiniAudioPlayer/Pods-MiniAudioPlayer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MiniAudioPlayer/Pods-MiniAudioPlayer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MiniAudioPlayer/Pods-MiniAudioPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD46496FAB1F42DCB66E552E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MiniAudioPlayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C5ABBA252866F60F00805113 /* Sources */ = {
@@ -284,6 +353,7 @@
 		};
 		C5ABBA3E2866F61100805113 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 688D5F16959DAC52CD13A798 /* Pods-MiniAudioPlayer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -296,6 +366,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,6 +382,7 @@
 		};
 		C5ABBA3F2866F61100805113 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D415389973BB73B799D4BCAA /* Pods-MiniAudioPlayer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -323,6 +395,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
