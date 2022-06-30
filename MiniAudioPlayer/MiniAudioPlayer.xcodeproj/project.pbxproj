@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0B1EC5F6FC5B4BA26372C8BF /* Pods_MiniAudioPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0691C2903003673C180FF67D /* Pods_MiniAudioPlayer.framework */; };
+		89DDCEA6286D383F003CC021 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DDCEA5286D383F003CC021 /* DetailViewController.swift */; };
+		89DDCEA8286D3D0E003CC021 /* MPTransitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DDCEA7286D3D0E003CC021 /* MPTransitionAnimation.swift */; };
 		C5ABBA2D2866F60F00805113 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ABBA2C2866F60F00805113 /* AppDelegate.swift */; };
 		C5ABBA2F2866F60F00805113 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ABBA2E2866F60F00805113 /* SceneDelegate.swift */; };
 		C5ABBA312866F60F00805113 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ABBA302866F60F00805113 /* ViewController.swift */; };
@@ -19,6 +21,8 @@
 /* Begin PBXFileReference section */
 		0691C2903003673C180FF67D /* Pods_MiniAudioPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiniAudioPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		688D5F16959DAC52CD13A798 /* Pods-MiniAudioPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniAudioPlayer.debug.xcconfig"; path = "Target Support Files/Pods-MiniAudioPlayer/Pods-MiniAudioPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		89DDCEA5286D383F003CC021 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		89DDCEA7286D3D0E003CC021 /* MPTransitionAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPTransitionAnimation.swift; sourceTree = "<group>"; };
 		C5ABBA292866F60F00805113 /* MiniAudioPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniAudioPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5ABBA2C2866F60F00805113 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5ABBA2E2866F60F00805113 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +82,8 @@
 				C5ABBA352866F61100805113 /* Assets.xcassets */,
 				C5ABBA372866F61100805113 /* LaunchScreen.storyboard */,
 				C5ABBA3A2866F61100805113 /* Info.plist */,
+				89DDCEA5286D383F003CC021 /* DetailViewController.swift */,
+				89DDCEA7286D3D0E003CC021 /* MPTransitionAnimation.swift */,
 			);
 			path = MiniAudioPlayer;
 			sourceTree = "<group>";
@@ -88,7 +94,6 @@
 				688D5F16959DAC52CD13A798 /* Pods-MiniAudioPlayer.debug.xcconfig */,
 				D415389973BB73B799D4BCAA /* Pods-MiniAudioPlayer.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -207,9 +212,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89DDCEA8286D3D0E003CC021 /* MPTransitionAnimation.swift in Sources */,
 				C5ABBA312866F60F00805113 /* ViewController.swift in Sources */,
 				C5ABBA2D2866F60F00805113 /* AppDelegate.swift in Sources */,
 				C5ABBA2F2866F60F00805113 /* SceneDelegate.swift in Sources */,
+				89DDCEA6286D383F003CC021 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +366,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S6UTDHJXSY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MiniAudioPlayer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -388,6 +396,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S6UTDHJXSY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MiniAudioPlayer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

@@ -7,19 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0ED6463EAC33FA6C358427551C512F69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
-		19EE53C9966D4142DD5B6BA2AD06D52B /* MarqueeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0FE1F280EBE6CD17CB11D260C4855F /* MarqueeLabel.swift */; };
+		19EE53C9966D4142DD5B6BA2AD06D52B /* MarqueeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1898929E9E80B33AA07807517477F724 /* MarqueeLabel.swift */; };
+		2581D95BE985A44ED90C1AFBD7A1D08A /* TransitionAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFAA5A904773B0EE3D959C629C0B75C /* TransitionAnimatable.swift */; };
 		2DF1F2842BF627B387F208A99772044C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FE46B11FEBCBB7C689EB07A5E57BD38 /* QuartzCore.framework */; };
-		2F9878203C57B16F8A2341363CE6ADE2 /* MarqueeLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FAFCB43B643869D69EAE42616A6E549 /* MarqueeLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6CE0B8970AEE2F68ABC4434712981A8A /* MarqueeLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 844DF49C3CAE0CCE0323406E8F1B01F8 /* MarqueeLabel-dummy.m */; };
+		2F9878203C57B16F8A2341363CE6ADE2 /* MarqueeLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D67E13EA26D9392754B137E3DF9FA91 /* MarqueeLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5353313A099EF1D094F8A4A770DCBA11 /* Pods-MiniAudioPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF5A11783BBDA591F2853D52F895717D /* Pods-MiniAudioPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5590186247B00884C5421A4F651AB645 /* ARNTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AB9E11E69797B1F975592A580D1C8E /* ARNTransitionAnimator.swift */; };
+		6CE0B8970AEE2F68ABC4434712981A8A /* MarqueeLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF9011095053E3922C66EFBC0B1A50B /* MarqueeLabel-dummy.m */; };
+		74414738793ABE8B6BAF54B5E1B00FAF /* TransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE9E36AE0016EED0E96322C28B72C94 /* TransitionAnimator.swift */; };
+		8700337181AD738D57824C1617689A6B /* ARNTransitionAnimator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEC826A03C0AA40593BDFFE0F80F92E /* ARNTransitionAnimator-dummy.m */; };
 		890D842A253CC9351D66015AB218F4DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
-		94244646A7BF784CA80E191FDD30F57C /* Pods-MiniAudioPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A60266B4159BA2A837A835614819E37B /* Pods-MiniAudioPlayer-dummy.m */; };
-		BDE5A524F0E0030B31C1242286BDB901 /* Pods-MiniAudioPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF5A11783BBDA591F2853D52F895717D /* Pods-MiniAudioPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C96048CFC4FE5D6DF933536A3970FFA /* AnimatedTransitioning .swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B3ACB579C98CE31EB1737EF7F0094A /* AnimatedTransitioning .swift */; };
+		B94BF833D412AE66F488AE1BD1E518A4 /* Pods-MiniAudioPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A60266B4159BA2A837A835614819E37B /* Pods-MiniAudioPlayer-dummy.m */; };
+		D20165D804AE73C10891BB3B0472368B /* InteractiveTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CD2E0F7A126593C74368A34EA3E951 /* InteractiveTransitioning.swift */; };
+		DC8A394A9C657D4BF17BAC50131D1048 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		E48367F3B74E0ABBB1E8D0169B868DC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		F15BADB8A715BEBADFAA9C8189C6F84D /* TransitionGestureHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1530ABB189F5A542F2D28E0DDFBC03D4 /* TransitionGestureHandler.swift */; };
 		F70BE6EE52CFB5E92B68F8FBE2A7E1B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE2AD31F00D0EF9C522211BDDBF6C3C /* UIKit.framework */; };
+		FD9250DEE4E765A227FAEFD2FD0D2681 /* ARNTransitionAnimator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F057F7A31D0B54678A72154C2B1C31E4 /* ARNTransitionAnimator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B43C5F557EC1651F388C23B81D83E2EE /* PBXContainerItemProxy */ = {
+		36183AFF6D0175BA7EED70E3872F7481 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09BA0A439E898134AF1803DD019345A7;
+			remoteInfo = ARNTransitionAnimator;
+		};
+		CD3742B5483209FE0595A6110491E4D1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -29,32 +45,54 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		001AC5225854AEC2E4AF077F489A46B2 /* MarqueeLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarqueeLabel-prefix.pch"; sourceTree = "<group>"; };
 		01EFF8D137383B11CE74BCFF5731D93C /* Pods-MiniAudioPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MiniAudioPlayer.debug.xcconfig"; sourceTree = "<group>"; };
-		147D1E396BFD010C500D8F2D1A2CA557 /* MarqueeLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MarqueeLabel.release.xcconfig; sourceTree = "<group>"; };
+		1530ABB189F5A542F2D28E0DDFBC03D4 /* TransitionGestureHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionGestureHandler.swift; path = Source/TransitionGestureHandler.swift; sourceTree = "<group>"; };
+		1898929E9E80B33AA07807517477F724 /* MarqueeLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarqueeLabel.swift; path = Sources/MarqueeLabel.swift; sourceTree = "<group>"; };
 		1F295564A0F1BE5A9A11AA1BA8446247 /* Pods-MiniAudioPlayer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MiniAudioPlayer-frameworks.sh"; sourceTree = "<group>"; };
-		46E50A1A1E7598D671663C90E2F9FF00 /* MarqueeLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MarqueeLabel.debug.xcconfig; sourceTree = "<group>"; };
-		4A0FE1F280EBE6CD17CB11D260C4855F /* MarqueeLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarqueeLabel.swift; path = Sources/MarqueeLabel.swift; sourceTree = "<group>"; };
+		213616BC431D2BF343E7323CB6647990 /* MarqueeLabel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MarqueeLabel-Info.plist"; sourceTree = "<group>"; };
+		34ACB6B3091B966237E4E9BA654BE441 /* MarqueeLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MarqueeLabel.release.xcconfig; sourceTree = "<group>"; };
+		3BE1C03F04AF34EE61ACD8928171EACD /* ARNTransitionAnimator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ARNTransitionAnimator.modulemap; sourceTree = "<group>"; };
+		3D67E13EA26D9392754B137E3DF9FA91 /* MarqueeLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarqueeLabel-umbrella.h"; sourceTree = "<group>"; };
+		45B3ACB579C98CE31EB1737EF7F0094A /* AnimatedTransitioning .swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AnimatedTransitioning .swift"; path = "Source/AnimatedTransitioning .swift"; sourceTree = "<group>"; };
+		46E3FD99AE3AD275F37CFF9989ED4180 /* ARNTransitionAnimator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ARNTransitionAnimator-Info.plist"; sourceTree = "<group>"; };
 		4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4ED27E8047D8788A3FBF3819823C3C73 /* Pods-MiniAudioPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MiniAudioPlayer.modulemap"; sourceTree = "<group>"; };
-		506C1805F0EAF8D2FDE3D524C708E880 /* MarqueeLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MarqueeLabel.modulemap; sourceTree = "<group>"; };
 		513021F6B1170D3D41284C927FA610CF /* Pods-MiniAudioPlayer */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MiniAudioPlayer"; path = Pods_MiniAudioPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5FAFCB43B643869D69EAE42616A6E549 /* MarqueeLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarqueeLabel-umbrella.h"; sourceTree = "<group>"; };
-		7CA86ABF5C2C99DA436C2E71CEA0D366 /* MarqueeLabel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MarqueeLabel-Info.plist"; sourceTree = "<group>"; };
-		844DF49C3CAE0CCE0323406E8F1B01F8 /* MarqueeLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MarqueeLabel-dummy.m"; sourceTree = "<group>"; };
+		74030E58F689E1AD08ED2CBBAFB641D9 /* ARNTransitionAnimator */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ARNTransitionAnimator; path = ARNTransitionAnimator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BEC826A03C0AA40593BDFFE0F80F92E /* ARNTransitionAnimator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ARNTransitionAnimator-dummy.m"; sourceTree = "<group>"; };
 		8CE2AD31F00D0EF9C522211BDDBF6C3C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8EE9E36AE0016EED0E96322C28B72C94 /* TransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionAnimator.swift; path = Source/TransitionAnimator.swift; sourceTree = "<group>"; };
 		90200AAFFBB8A71EBD349B32061E9531 /* Pods-MiniAudioPlayer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MiniAudioPlayer-Info.plist"; sourceTree = "<group>"; };
+		93AB9E11E69797B1F975592A580D1C8E /* ARNTransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ARNTransitionAnimator.swift; path = Source/ARNTransitionAnimator.swift; sourceTree = "<group>"; };
+		949AD7AC12272D97710B1C8F959478C4 /* ARNTransitionAnimator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ARNTransitionAnimator.release.xcconfig; sourceTree = "<group>"; };
 		9773F311934511439FCA64E4045C8D64 /* Pods-MiniAudioPlayer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MiniAudioPlayer-acknowledgements.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FE46B11FEBCBB7C689EB07A5E57BD38 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		A60266B4159BA2A837A835614819E37B /* Pods-MiniAudioPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MiniAudioPlayer-dummy.m"; sourceTree = "<group>"; };
+		B4CD2E0F7A126593C74368A34EA3E951 /* InteractiveTransitioning.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InteractiveTransitioning.swift; path = Source/InteractiveTransitioning.swift; sourceTree = "<group>"; };
 		BEE769A51D0128BE442C101E81081E3A /* Pods-MiniAudioPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MiniAudioPlayer.release.xcconfig"; sourceTree = "<group>"; };
 		BF5A11783BBDA591F2853D52F895717D /* Pods-MiniAudioPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MiniAudioPlayer-umbrella.h"; sourceTree = "<group>"; };
 		CF0AA9FBFBDB70858C030769541505ED /* MarqueeLabel */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MarqueeLabel; path = MarqueeLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D28151C7B9B53AC181A8CCA608A898BF /* MarqueeLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarqueeLabel-prefix.pch"; sourceTree = "<group>"; };
+		DDFAA5A904773B0EE3D959C629C0B75C /* TransitionAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionAnimatable.swift; path = Source/TransitionAnimatable.swift; sourceTree = "<group>"; };
 		E24A169D76E0B5C66774FF8FBC539445 /* Pods-MiniAudioPlayer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MiniAudioPlayer-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E2A4C8A84113D8550222DC280F8E9397 /* ARNTransitionAnimator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ARNTransitionAnimator.debug.xcconfig; sourceTree = "<group>"; };
+		EB25523C2C6C00F6411939BEEA39FFB6 /* MarqueeLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MarqueeLabel.modulemap; sourceTree = "<group>"; };
+		F057F7A31D0B54678A72154C2B1C31E4 /* ARNTransitionAnimator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ARNTransitionAnimator-umbrella.h"; sourceTree = "<group>"; };
+		F6A007E99EEE387F90340D725284D6EF /* ARNTransitionAnimator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ARNTransitionAnimator-prefix.pch"; sourceTree = "<group>"; };
+		FCBF641E28164BF90497B540DD8D1710 /* MarqueeLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MarqueeLabel.debug.xcconfig; sourceTree = "<group>"; };
+		FEF9011095053E3922C66EFBC0B1A50B /* MarqueeLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MarqueeLabel-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		87BB3AB6B4D06EFA32E2A14F87465831 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC8A394A9C657D4BF17BAC50131D1048 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DE1746FCBBF82FC26CB045D88B1BCC1C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -65,11 +103,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F37BBF9F1E2DAAC388B21BD66143FEDD /* Frameworks */ = {
+		E4A38D71A41184BE781AE480BD9450C6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0ED6463EAC33FA6C358427551C512F69 /* Foundation.framework in Frameworks */,
+				E48367F3B74E0ABBB1E8D0169B868DC9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +130,70 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		5B83E8907F67BA8A5B65BB80FE4F9523 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB25523C2C6C00F6411939BEEA39FFB6 /* MarqueeLabel.modulemap */,
+				FEF9011095053E3922C66EFBC0B1A50B /* MarqueeLabel-dummy.m */,
+				213616BC431D2BF343E7323CB6647990 /* MarqueeLabel-Info.plist */,
+				001AC5225854AEC2E4AF077F489A46B2 /* MarqueeLabel-prefix.pch */,
+				3D67E13EA26D9392754B137E3DF9FA91 /* MarqueeLabel-umbrella.h */,
+				FCBF641E28164BF90497B540DD8D1710 /* MarqueeLabel.debug.xcconfig */,
+				34ACB6B3091B966237E4E9BA654BE441 /* MarqueeLabel.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MarqueeLabel";
+			sourceTree = "<group>";
+		};
+		6BDF09F1187AF02F256D940D0AFC33DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				986D269C77368C87573C91746FBFE981 /* ARNTransitionAnimator */,
+				79E77EC7EDF516E8A35F3187C1F12C0C /* MarqueeLabel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		715A5B9C3A2C49D258454D614015344F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BE1C03F04AF34EE61ACD8928171EACD /* ARNTransitionAnimator.modulemap */,
+				8BEC826A03C0AA40593BDFFE0F80F92E /* ARNTransitionAnimator-dummy.m */,
+				46E3FD99AE3AD275F37CFF9989ED4180 /* ARNTransitionAnimator-Info.plist */,
+				F6A007E99EEE387F90340D725284D6EF /* ARNTransitionAnimator-prefix.pch */,
+				F057F7A31D0B54678A72154C2B1C31E4 /* ARNTransitionAnimator-umbrella.h */,
+				E2A4C8A84113D8550222DC280F8E9397 /* ARNTransitionAnimator.debug.xcconfig */,
+				949AD7AC12272D97710B1C8F959478C4 /* ARNTransitionAnimator.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ARNTransitionAnimator";
+			sourceTree = "<group>";
+		};
+		79E77EC7EDF516E8A35F3187C1F12C0C /* MarqueeLabel */ = {
+			isa = PBXGroup;
+			children = (
+				1898929E9E80B33AA07807517477F724 /* MarqueeLabel.swift */,
+				5B83E8907F67BA8A5B65BB80FE4F9523 /* Support Files */,
+			);
+			name = MarqueeLabel;
+			path = MarqueeLabel;
+			sourceTree = "<group>";
+		};
+		986D269C77368C87573C91746FBFE981 /* ARNTransitionAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				45B3ACB579C98CE31EB1737EF7F0094A /* AnimatedTransitioning .swift */,
+				93AB9E11E69797B1F975592A580D1C8E /* ARNTransitionAnimator.swift */,
+				B4CD2E0F7A126593C74368A34EA3E951 /* InteractiveTransitioning.swift */,
+				DDFAA5A904773B0EE3D959C629C0B75C /* TransitionAnimatable.swift */,
+				8EE9E36AE0016EED0E96322C28B72C94 /* TransitionAnimator.swift */,
+				1530ABB189F5A542F2D28E0DDFBC03D4 /* TransitionGestureHandler.swift */,
+				715A5B9C3A2C49D258454D614015344F /* Support Files */,
+			);
+			name = ARNTransitionAnimator;
+			path = ARNTransitionAnimator;
+			sourceTree = "<group>";
+		};
 		9DC82D25A070CA9876384FF37EA9925B /* Pods-MiniAudioPlayer */ = {
 			isa = PBXGroup;
 			children = (
@@ -109,29 +211,14 @@
 			path = "Target Support Files/Pods-MiniAudioPlayer";
 			sourceTree = "<group>";
 		};
-		ADDCF4F254169A4BAF86B07D092EDF72 /* Support Files */ = {
+		A933478CAFA3D39FABA3D7DFFD663142 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				506C1805F0EAF8D2FDE3D524C708E880 /* MarqueeLabel.modulemap */,
-				844DF49C3CAE0CCE0323406E8F1B01F8 /* MarqueeLabel-dummy.m */,
-				7CA86ABF5C2C99DA436C2E71CEA0D366 /* MarqueeLabel-Info.plist */,
-				D28151C7B9B53AC181A8CCA608A898BF /* MarqueeLabel-prefix.pch */,
-				5FAFCB43B643869D69EAE42616A6E549 /* MarqueeLabel-umbrella.h */,
-				46E50A1A1E7598D671663C90E2F9FF00 /* MarqueeLabel.debug.xcconfig */,
-				147D1E396BFD010C500D8F2D1A2CA557 /* MarqueeLabel.release.xcconfig */,
+				74030E58F689E1AD08ED2CBBAFB641D9 /* ARNTransitionAnimator */,
+				CF0AA9FBFBDB70858C030769541505ED /* MarqueeLabel */,
+				513021F6B1170D3D41284C927FA610CF /* Pods-MiniAudioPlayer */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/MarqueeLabel";
-			sourceTree = "<group>";
-		};
-		CA0B97F54F054ED4E45E343B6AA388B1 /* MarqueeLabel */ = {
-			isa = PBXGroup;
-			children = (
-				4A0FE1F280EBE6CD17CB11D260C4855F /* MarqueeLabel.swift */,
-				ADDCF4F254169A4BAF86B07D092EDF72 /* Support Files */,
-			);
-			name = MarqueeLabel;
-			path = MarqueeLabel;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -139,19 +226,10 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
-				F89CF82BFB6B29D57B3ED666A4980FA6 /* Pods */,
-				EEED3A7B59F73B4FE42544AF02E088E4 /* Products */,
+				6BDF09F1187AF02F256D940D0AFC33DA /* Pods */,
+				A933478CAFA3D39FABA3D7DFFD663142 /* Products */,
 				2AF126C5A5B315C8ADABFA5AE74A4068 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		EEED3A7B59F73B4FE42544AF02E088E4 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CF0AA9FBFBDB70858C030769541505ED /* MarqueeLabel */,
-				513021F6B1170D3D41284C927FA610CF /* Pods-MiniAudioPlayer */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		F0A778C0229E9BF1FD97896B93F3272B /* iOS */ = {
@@ -164,22 +242,22 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		F89CF82BFB6B29D57B3ED666A4980FA6 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				CA0B97F54F054ED4E45E343B6AA388B1 /* MarqueeLabel */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		7E9467FB82C9DE47C41682EE10B6C272 /* Headers */ = {
+		4DCD3A111CC5B7272E067E346DAFA452 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDE5A524F0E0030B31C1242286BDB901 /* Pods-MiniAudioPlayer-umbrella.h in Headers */,
+				FD9250DEE4E765A227FAEFD2FD0D2681 /* ARNTransitionAnimator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B3E71269AD23EF5E486DA4181AE03A8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5353313A099EF1D094F8A4A770DCBA11 /* Pods-MiniAudioPlayer-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,19 +272,38 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5C257FC5ED5F1486E445CEBC8A49C067 /* Pods-MiniAudioPlayer */ = {
+		09BA0A439E898134AF1803DD019345A7 /* ARNTransitionAnimator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 99AE0B9BEE1B0A80C67BF67CE3D53360 /* Build configuration list for PBXNativeTarget "Pods-MiniAudioPlayer" */;
+			buildConfigurationList = 51A3E9C82BB58C7857F453C7763C4F14 /* Build configuration list for PBXNativeTarget "ARNTransitionAnimator" */;
 			buildPhases = (
-				7E9467FB82C9DE47C41682EE10B6C272 /* Headers */,
-				F5FA6EB0A4F8F329ED07F79E04BDF9F8 /* Sources */,
-				F37BBF9F1E2DAAC388B21BD66143FEDD /* Frameworks */,
-				5C6349A5C597FF6EB71737F8CDD3E11A /* Resources */,
+				4DCD3A111CC5B7272E067E346DAFA452 /* Headers */,
+				9EDD28777491A142835B696933B6E259 /* Sources */,
+				87BB3AB6B4D06EFA32E2A14F87465831 /* Frameworks */,
+				3E8B03ACF8AA96AD825003605BA10595 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C3A50F72FD692D957556D00129E7851D /* PBXTargetDependency */,
+			);
+			name = ARNTransitionAnimator;
+			productName = ARNTransitionAnimator;
+			productReference = 74030E58F689E1AD08ED2CBBAFB641D9 /* ARNTransitionAnimator */;
+			productType = "com.apple.product-type.framework";
+		};
+		5C257FC5ED5F1486E445CEBC8A49C067 /* Pods-MiniAudioPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF032745E88F14CF169E3245B4F5C461 /* Build configuration list for PBXNativeTarget "Pods-MiniAudioPlayer" */;
+			buildPhases = (
+				7B3E71269AD23EF5E486DA4181AE03A8 /* Headers */,
+				D9BD5D61D091B679A8F23F3E66A75D62 /* Sources */,
+				E4A38D71A41184BE781AE480BD9450C6 /* Frameworks */,
+				C305F893E83FE12134D0D3751F2139B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0B32F3238F55AF8D35087D591ED77F3 /* PBXTargetDependency */,
+				0714540CFB86096583048F22D28751ED /* PBXTargetDependency */,
 			);
 			name = "Pods-MiniAudioPlayer";
 			productName = Pods_MiniAudioPlayer;
@@ -249,10 +346,11 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = EEED3A7B59F73B4FE42544AF02E088E4 /* Products */;
+			productRefGroup = A933478CAFA3D39FABA3D7DFFD663142 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				09BA0A439E898134AF1803DD019345A7 /* ARNTransitionAnimator */,
 				C23DB88E45B0ED14F0C8827BE9C46C95 /* MarqueeLabel */,
 				5C257FC5ED5F1486E445CEBC8A49C067 /* Pods-MiniAudioPlayer */,
 			);
@@ -267,7 +365,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5C6349A5C597FF6EB71737F8CDD3E11A /* Resources */ = {
+		3E8B03ACF8AA96AD825003605BA10595 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C305F893E83FE12134D0D3751F2139B9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -277,6 +382,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		9EDD28777491A142835B696933B6E259 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C96048CFC4FE5D6DF933536A3970FFA /* AnimatedTransitioning .swift in Sources */,
+				5590186247B00884C5421A4F651AB645 /* ARNTransitionAnimator.swift in Sources */,
+				8700337181AD738D57824C1617689A6B /* ARNTransitionAnimator-dummy.m in Sources */,
+				D20165D804AE73C10891BB3B0472368B /* InteractiveTransitioning.swift in Sources */,
+				2581D95BE985A44ED90C1AFBD7A1D08A /* TransitionAnimatable.swift in Sources */,
+				74414738793ABE8B6BAF54B5E1B00FAF /* TransitionAnimator.swift in Sources */,
+				F15BADB8A715BEBADFAA9C8189C6F84D /* TransitionGestureHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CE51103B19EB6AFC57B1C6125F7EB6C5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -286,27 +405,70 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F5FA6EB0A4F8F329ED07F79E04BDF9F8 /* Sources */ = {
+		D9BD5D61D091B679A8F23F3E66A75D62 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94244646A7BF784CA80E191FDD30F57C /* Pods-MiniAudioPlayer-dummy.m in Sources */,
+				B94BF833D412AE66F488AE1BD1E518A4 /* Pods-MiniAudioPlayer-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C3A50F72FD692D957556D00129E7851D /* PBXTargetDependency */ = {
+		0714540CFB86096583048F22D28751ED /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MarqueeLabel;
 			target = C23DB88E45B0ED14F0C8827BE9C46C95 /* MarqueeLabel */;
-			targetProxy = B43C5F557EC1651F388C23B81D83E2EE /* PBXContainerItemProxy */;
+			targetProxy = CD3742B5483209FE0595A6110491E4D1 /* PBXContainerItemProxy */;
+		};
+		B0B32F3238F55AF8D35087D591ED77F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ARNTransitionAnimator;
+			target = 09BA0A439E898134AF1803DD019345A7 /* ARNTransitionAnimator */;
+			targetProxy = 36183AFF6D0175BA7EED70E3872F7481 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		652291C65259076BF5AD1E0445409F54 /* Release */ = {
+		251170AFACBF883AE40D049854B1D0D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01EFF8D137383B11CE74BCFF5731D93C /* Pods-MiniAudioPlayer.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MiniAudioPlayer/Pods-MiniAudioPlayer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MiniAudioPlayer/Pods-MiniAudioPlayer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		29D8870F6A8355365A3BC7047142CC1C /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BEE769A51D0128BE442C101E81081E3A /* Pods-MiniAudioPlayer.release.xcconfig */;
 			buildSettings = {
@@ -408,7 +570,7 @@
 		};
 		8B71D140048E37EA295DDF2313D659CE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 147D1E396BFD010C500D8F2D1A2CA557 /* MarqueeLabel.release.xcconfig */;
+			baseConfigurationReference = 34ACB6B3091B966237E4E9BA654BE441 /* MarqueeLabel.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -441,46 +603,9 @@
 			};
 			name = Release;
 		};
-		93F669CE3F2D9E436DE2717C2133E0FA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 01EFF8D137383B11CE74BCFF5731D93C /* Pods-MiniAudioPlayer.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MiniAudioPlayer/Pods-MiniAudioPlayer-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MiniAudioPlayer/Pods-MiniAudioPlayer.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		A7500E7CF0B2C72ECABA50BE15BC536A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46E50A1A1E7598D671663C90E2F9FF00 /* MarqueeLabel.debug.xcconfig */;
+			baseConfigurationReference = FCBF641E28164BF90497B540DD8D1710 /* MarqueeLabel.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -578,6 +703,77 @@
 			};
 			name = Debug;
 		};
+		EB019EB0F6DA65FB6B38C85A056207EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 949AD7AC12272D97710B1C8F959478C4 /* ARNTransitionAnimator.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ARNTransitionAnimator/ARNTransitionAnimator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ARNTransitionAnimator/ARNTransitionAnimator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ARNTransitionAnimator/ARNTransitionAnimator.modulemap";
+				PRODUCT_MODULE_NAME = ARNTransitionAnimator;
+				PRODUCT_NAME = ARNTransitionAnimator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F738028A32D866F1CC17FCAE6A1D9DA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2A4C8A84113D8550222DC280F8E9397 /* ARNTransitionAnimator.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ARNTransitionAnimator/ARNTransitionAnimator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ARNTransitionAnimator/ARNTransitionAnimator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ARNTransitionAnimator/ARNTransitionAnimator.modulemap";
+				PRODUCT_MODULE_NAME = ARNTransitionAnimator;
+				PRODUCT_NAME = ARNTransitionAnimator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -599,11 +795,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		99AE0B9BEE1B0A80C67BF67CE3D53360 /* Build configuration list for PBXNativeTarget "Pods-MiniAudioPlayer" */ = {
+		51A3E9C82BB58C7857F453C7763C4F14 /* Build configuration list for PBXNativeTarget "ARNTransitionAnimator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				93F669CE3F2D9E436DE2717C2133E0FA /* Debug */,
-				652291C65259076BF5AD1E0445409F54 /* Release */,
+				F738028A32D866F1CC17FCAE6A1D9DA9 /* Debug */,
+				EB019EB0F6DA65FB6B38C85A056207EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF032745E88F14CF169E3245B4F5C461 /* Build configuration list for PBXNativeTarget "Pods-MiniAudioPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				251170AFACBF883AE40D049854B1D0D9 /* Debug */,
+				29D8870F6A8355365A3BC7047142CC1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

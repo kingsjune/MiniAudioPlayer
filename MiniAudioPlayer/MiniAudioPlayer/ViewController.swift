@@ -11,7 +11,7 @@ import MarqueeLabel
 class ViewController: UIViewController {
 
     @IBOutlet weak var demoLabel: MarqueeLabel!
-    
+
     @IBOutlet weak var bottomView: UIView!
     
     @IBOutlet weak var playButton: UIButton!
@@ -25,6 +25,7 @@ class ViewController: UIViewController {
     }
     
     fileprivate func setUI() {
+        demoLabel.text = " 2022년 06월28일 (화) 뉴스룸 "
         demoLabel.type = .continuous
         demoLabel.speed = .duration(7.0)
         demoLabel.fadeLength = 10.0

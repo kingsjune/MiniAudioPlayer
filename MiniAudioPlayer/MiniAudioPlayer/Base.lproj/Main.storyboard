@@ -5,7 +5,6 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -34,7 +33,7 @@
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="197" id="Zu0-Kj-Wag"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
-                                        <nil key="textColor"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_list_24" translatesAutoresizingMaskIntoConstraints="NO" id="ilA-Ez-bZS">
@@ -72,7 +71,7 @@
                                         <state key="normal" image="ic_close_24"/>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <color key="backgroundColor" red="0.89803921568627454" green="0.43141973586309523" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="RJt-gG-iZq" secondAttribute="trailing" constant="15" id="1Oa-Fe-nqW"/>
                                     <constraint firstItem="fWo-yP-gH3" firstAttribute="centerY" secondItem="oau-W4-3u0" secondAttribute="centerY" id="38F-Gj-XC0"/>
@@ -122,8 +121,5 @@
         <image name="ic_close_24" width="24" height="24"/>
         <image name="ic_list_24" width="24" height="24"/>
         <image name="ic_pause_24" width="24" height="24"/>
-        <systemColor name="systemGray5Color">
-            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
     </resources>
 </document>
