@@ -12,6 +12,8 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var demoLabel: MarqueeLabel!
 
+    fileprivate var detailVC: DetailViewController!
+
     @IBOutlet weak var bottomView: UIView!
     
     @IBOutlet weak var playButton: UIButton!
@@ -21,6 +23,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.darkGray
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        self.detailVC = storyboard.instantiateViewController(withIdentifier: "DetailViewController") as? DetailViewController
+        self.detailVC
+        
         setUI()
     }
     
