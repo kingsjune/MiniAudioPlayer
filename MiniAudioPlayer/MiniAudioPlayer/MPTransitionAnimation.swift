@@ -11,25 +11,6 @@ import ARNTransitionAnimator
 
 final class MPTransitionAnimation: TransitionAnimatable{
     
-//    func sourceVC() -> UIViewController {
-//
-//    }
-//
-//    func destVC() -> UIViewController {
-//
-//    }
-//
-//    func willAnimation(_ transitionType: TransitionType, containerView: UIView) {
-//
-//    }
-//
-//    func updateAnimation(_ transitionType: TransitionType, percentComplete: CGFloat) {
-//
-//    }
-//
-//    func finishAnimation(_ transitionType: TransitionType, didComplete: Bool) {
-//
-//    }
     
     fileprivate weak var rootVC: ViewController!
     fileprivate weak var detailVC: DetailViewController!
@@ -76,7 +57,7 @@ final class MPTransitionAnimation: TransitionAnimatable{
             
             self.rootVC.bottomView.alpha = 1.0
             self.rootVC.bottomView.frame.origin.y = -self.rootVC.bottomView.bounds.size.height
-            self.rootVC.tabBarController!.tabBar.frame.origin.y = containerView.bounds.self.height
+//            self.rootVC.tabBarController!.tabBar.frame.origin.y = containerView.bounds.self.height
         }
     }
     
@@ -96,11 +77,11 @@ final class MPTransitionAnimation: TransitionAnimatable{
             
             self.detailVC.view.frame.origin.y = self.rootVC.bottomView.frame.origin.y + self.rootVC.bottomView.frame.size.height
             let tabY = tabStartOriginY + (tabDiff * percentComplete)
-            self.rootVC.tabBarController!.tabBar.frame.origin.y = min(max(tabY, self.tabBarStartFrame.origin.y), tabEndOriginY)
+//            self.rootVC.tabBarController!.tabBar.frame.origin.y = min(max(tabY, self.tabBarStartFrame.origin.y), tabEndOriginY)
             
             let alpha = 1.0 - (1.0 * percentComplete)
-            self.rootVC.view.subviews.forEach{ $0.alpha = alpha + 0.4 }
-            self.rootVC.tabBarController!.tabBar.alpha = alpha
+//            self.rootVC.view.subviews.forEach{ $0.alpha = alpha + 0.4 }
+//            self.rootVC.tabBarController!.tabBar.alpha = alpha
         } else {
             
             let startOriginY = 0 - self.rootVC.bottomView.bounds.size.height
@@ -114,11 +95,11 @@ final class MPTransitionAnimation: TransitionAnimatable{
             self.rootVC.bottomView.frame.origin.y = startOriginY + (diff * percentComplete)
             self.detailVC.view.frame.origin.y = self.rootVC.bottomView.frame.origin.y + self.rootVC.bottomView.frame.size.height
             
-            self.rootVC.tabBarController!.tabBar.frame.origin.y = tabStartOriginY - (tabDiff * (1.0 - percentComplete))
+//            self.rootVC.tabBarController!.tabBar.frame.origin.y = tabStartOriginY - (tabDiff * (1.0 - percentComplete))
             
             let alpha = 1.0 * percentComplete
-            self.rootVC.view.subviews.forEach { $0.alpha = alpha + 0.4 }
-            self.rootVC.tabBarController!.tabBar.alpha = alpha
+//            self.rootVC.view.subviews.forEach { $0.alpha = alpha + 0.4 }
+//            self.rootVC.tabBarController!.tabBar.alpha = alpha
         }
     }
     
@@ -127,7 +108,7 @@ final class MPTransitionAnimation: TransitionAnimatable{
         
         if transitionType.isPresenting {
             if didComplete {
-                self.rootVC.bottomView.alpha = 0.0
+                self.rootVC.bottomView.alpha = 1.0
                 self.detailVC.view.removeFromSuperview()
                 self.containerView?.addSubview(self.detailVC.view)
                 
