@@ -16,20 +16,22 @@ class AodListCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-        newsTitleLabel.font = UIFont(name: "NotoSansKR-Regular", size: 15)
-        aodTimeLabel.font = UIFont(name: "NotoSansKR-Regular", size: 12)
-        aodTimeLabel.textColor = UIColor(rgb: 0x5F6267)
+   
     }
     
     override func layoutSubviews() {
         super.layoutSubviews()
-//        contentView.frame = contentView.frame.inset(by: UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0))
+        newsTitleLabel.font = UIFont(name: "NotoSansKR-Regular", size: 15)
+        aodTimeLabel.font = UIFont(name: "NotoSansKR-Regular", size: 12)
+        aodTimeLabel.textColor = UIColor(rgb: 0x5F6267)
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+        if selected {
+            self.playIMG.image = UIImage(named: "28xpause")
+        } else {
+            self.playIMG.image = UIImage(named: "28xplay")
+        }
     }
-
 }

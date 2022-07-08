@@ -64,9 +64,18 @@ class AodDetailViewController: UIViewController {
         
         speed.font = UIFont(name: "NotoSansKR-Medium", size: 10)
         
+        
+        aodSliderButton.setThumbImage(UIImage(named: "Now_default"), for: .normal)
+        aodSliderButton.setThumbImage(UIImage(named: "Now_pressed"), for: .highlighted)
+
     }
     
+    @IBAction func speedChangeAction(_ sender: Any) {
+    }
     @IBAction func listTabAction(_ sender: Any) {
-        print("listTabActionlistTabAction")
+        guard let pushVC = self.storyboard?.instantiateViewController(withIdentifier: "AodListViewID") else {
+            return
+        }
+        self.navigationController?.pushViewController(pushVC, animated: true)
     }
 }

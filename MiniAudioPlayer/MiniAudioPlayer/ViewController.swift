@@ -29,7 +29,7 @@ class ViewController: UIViewController {
         self.detailVC = storyboard.instantiateViewController(withIdentifier: "DetailViewController") as? DetailViewController
         self.detailVC.modalPresentationStyle = .overCurrentContext
         setUI()
-        setupAnimator()
+//        setupAnimator()
     }
     
     @IBAction func showDetailAction(_ sender: Any) {

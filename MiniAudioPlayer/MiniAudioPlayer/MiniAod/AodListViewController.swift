@@ -14,6 +14,10 @@ class AodListViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     
+    @IBAction func backAction(_ sender: Any) {
+        self.navigationController?.popToRootViewController(animated: true)
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 //        self.view.backgroundColor = .white
@@ -32,24 +36,23 @@ class AodListViewController: UIViewController {
         aodTitle.text = "JTBC 뉴스"
         aodTitle.font = UIFont(name: "NotoSansKR-Medium", size: 16)
         
-        tableView.backgroundColor = .brown
-//        self.tableView.register(AodListCell.self, forCellReuseIdentifier: "AodListCell");
+        tableView.backgroundColor = .white
         self.tableView.delegate = self
         self.tableView.dataSource = self
         self.tableView.rowHeight = UITableView.automaticDimension
         self.tableView.estimatedRowHeight = UITableView.automaticDimension
-        
+        self.tableView.sectionHeaderHeight = UITableView.automaticDimension
     }
 }
 
 
 extension AodListViewController: UITableViewDelegate, UITableViewDataSource {
     func numberOfSections(in tableView: UITableView) -> Int {
-        return 5
+        return 1
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
+        return 8
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -63,14 +66,18 @@ extension AodListViewController: UITableViewDelegate, UITableViewDataSource {
         }
         cell.newsTitleLabel.text = "2022년 3월 18일 (목)JTBC 뉴스룸 "
         cell.aodTimeLabel.text = "20:00"
-        cell.backgroundColor = .yellow
+        cell.backgroundColor = .white
         return cell
     }
     
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-//        if section == 2 {
-//            return .leastNormalMagnitude
-//        }
-        return .leastNormalMagnitude
+        return .leastNonzeroMagnitude
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print("indexPath\(indexPath)")
+        let cell = tableView.cellForRow(at: indexPath) as! AodListCell
+//        cell.playIMG.image = UIImage(named: "28xpause")
+    }
+    
 }
