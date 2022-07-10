@@ -24,7 +24,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//        self.view.backgroundColor = UIColor.purple
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         self.detailVC = storyboard.instantiateViewController(withIdentifier: "DetailViewController") as? DetailViewController
         self.detailVC.modalPresentationStyle = .overCurrentContext

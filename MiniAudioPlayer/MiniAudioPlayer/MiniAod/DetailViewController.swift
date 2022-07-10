@@ -12,6 +12,9 @@ class DetailViewController: UIViewController {
     fileprivate weak var containerVC: UIViewController!
     fileprivate var containerViewObjects = Dictionary<String,UIViewController>()
     
+    let detailVC = AodDetailViewController()
+    let listVC = AodListViewController()
+    
     var animationDurationWithOptions:(TimeInterval, UIView.AnimationOptions) = (0,[])
     var tapCloseButtonActionHandler: (() -> Void)?
 

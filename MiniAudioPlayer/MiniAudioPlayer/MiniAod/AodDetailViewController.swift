@@ -7,7 +7,15 @@
 
 import UIKit
 
+enum SpeedType: String {
+    case basic = "1.0"
+    case mid = "1.5"
+    case double = "2.0"
+}
+
 class AodDetailViewController: UIViewController {
+    
+    let test = AodDetailViewController()
 
     @IBOutlet weak var topView: UIView!
     @IBOutlet weak var aodTitle: UILabel!
@@ -22,14 +30,14 @@ class AodDetailViewController: UIViewController {
     
     @IBOutlet weak var speed: UILabel!
     
-    
     @IBOutlet weak var aodSliderButton: UISlider!
     @IBOutlet weak var aodProgressView: UIProgressView!
-    
-   
+       
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        addChild(test)
+        
         topView.clipsToBounds = true
         topView.layer.cornerRadius = 3
         topView.backgroundColor = UIColor(rgb: 0xE5E5E5)
@@ -64,18 +72,24 @@ class AodDetailViewController: UIViewController {
         
         speed.font = UIFont(name: "NotoSansKR-Medium", size: 10)
         
-        
         aodSliderButton.setThumbImage(UIImage(named: "Now_default"), for: .normal)
         aodSliderButton.setThumbImage(UIImage(named: "Now_pressed"), for: .highlighted)
 
     }
     
     @IBAction func speedChangeAction(_ sender: Any) {
-    }
-    @IBAction func listTabAction(_ sender: Any) {
-        guard let pushVC = self.storyboard?.instantiateViewController(withIdentifier: "AodListViewID") else {
-            return
+        switch speed.text {
+        case SpeedType.basic.rawValue:
+            speed.text = SpeedType.mid.rawValue
+        case SpeedType.mid.rawValue:
+            speed.text = SpeedType.double.rawValue
+        default:
+            speed.text = SpeedType.basic.rawValue
         }
-        self.navigationController?.pushViewController(pushVC, animated: true)
+    }
+    
+    @IBAction func listTabAction(_ sender: Any) {
+        self.view.addSubview(test.view)
+        test.didMove(toParent: self)
     }
 }

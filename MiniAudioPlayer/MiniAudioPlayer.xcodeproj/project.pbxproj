@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0B1EC5F6FC5B4BA26372C8BF /* Pods_MiniAudioPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0691C2903003673C180FF67D /* Pods_MiniAudioPlayer.framework */; };
-		892364EC287424E800A94B58 /* EmptySegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892364EB287424E800A94B58 /* EmptySegue.swift */; };
 		892364F52874382F00A94B58 /* NotoSansKR-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 892364EE2874382D00A94B58 /* NotoSansKR-Light.otf */; };
 		892364F62874382F00A94B58 /* NotoSansKR-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 892364EF2874382E00A94B58 /* NotoSansKR-Medium.otf */; };
 		892364F72874382F00A94B58 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 892364F02874382E00A94B58 /* OFL.txt */; };
@@ -33,7 +32,6 @@
 /* Begin PBXFileReference section */
 		0691C2903003673C180FF67D /* Pods_MiniAudioPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiniAudioPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		688D5F16959DAC52CD13A798 /* Pods-MiniAudioPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniAudioPlayer.debug.xcconfig"; path = "Target Support Files/Pods-MiniAudioPlayer/Pods-MiniAudioPlayer.debug.xcconfig"; sourceTree = "<group>"; };
-		892364EB287424E800A94B58 /* EmptySegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptySegue.swift; sourceTree = "<group>"; };
 		892364EE2874382D00A94B58 /* NotoSansKR-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Light.otf"; sourceTree = "<group>"; };
 		892364EF2874382E00A94B58 /* NotoSansKR-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Medium.otf"; sourceTree = "<group>"; };
 		892364F02874382E00A94B58 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
@@ -126,7 +124,6 @@
 			isa = PBXGroup;
 			children = (
 				89947C162875179E00D57E9D /* MiniAod */,
-				892364EB287424E800A94B58 /* EmptySegue.swift */,
 				C5ABBA2C2866F60F00805113 /* AppDelegate.swift */,
 				C5ABBA2E2866F60F00805113 /* SceneDelegate.swift */,
 				C5ABBA302866F60F00805113 /* ViewController.swift */,
@@ -274,7 +271,6 @@
 				89DDCEA8286D3D0E003CC021 /* MPTransitionAnimation.swift in Sources */,
 				C5ABBA312866F60F00805113 /* ViewController.swift in Sources */,
 				C5ABBA2D2866F60F00805113 /* AppDelegate.swift in Sources */,
-				892364EC287424E800A94B58 /* EmptySegue.swift in Sources */,
 				C5ABBA2F2866F60F00805113 /* SceneDelegate.swift in Sources */,
 				89C6D3272873F9CC00EACE44 /* AodDetailViewController.swift in Sources */,
 				89DDCEA6286D383F003CC021 /* DetailViewController.swift in Sources */,
